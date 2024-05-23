@@ -1,15 +1,6 @@
 {
+
     "rewrites": [
       {"source": "/(.*)", "destination": "/"}
-    ],
-    "routes": [
-        {
-          "src": "/fonts/(.*)",
-          "dest": "/public/fonts/$1"
-        },
-        {
-          "src": "/(.*)",
-          "dest": "/index.html"
-        }
-      ]
+    ]
 }
