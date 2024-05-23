@@ -5,19 +5,19 @@
 
 @font-face {
   font-family: 'Unison Pro Bold';
-  src: url(/src/assets/fonts/Type\ Juice\ -\ Unison\ Pro\ Bold.otf);
+  src: url(/fonts/Type\ Juice\ -\ Unison\ Pro\ Bold.otf);
 }
 @font-face {
   font-family: 'Unison Pro Bold Italic';
-  src: url(/src/assets/fonts/Type\ Juice\ -\ Unison\ Pro\ Bold\ Italic.otf);
+  src: url(/fonts/Type\ Juice\ -\ Unison\ Pro\ Bold\ Italic.otf);
 }
 @font-face {
   font-family: 'Unison Pro Light';
-  src: url(/src/assets/fonts/Type\ Juice\ -\ Unison\ Pro\ Light.otf);
+  src: url(/fonts/Type\ Juice\ -\ Unison\ Pro\ Light.otf);
 }
 @font-face {
   font-family: 'Unison Pro Light Italic';
-  src: url(/src/assets/fonts/Type\ Juice\ -\ Unison\ Pro\ Light\ Italic.otf);
+  src: url(/fonts/Type\ Juice\ -\ Unison\ Pro\ Light\ Italic.otf);
 }
 :root {
   width: 100%;
