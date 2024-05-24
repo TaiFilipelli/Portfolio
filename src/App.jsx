@@ -7,7 +7,7 @@ import About from './components/pages/About.jsx';
 import Projects from './components/pages/Projects.jsx';
 function App() {
   return (
-    <main className='min-h-screen w-full'>
+    <main className='min-h-screen w-full bg-no-repeat'>
       <Navbar/>
       <Switch>
         <Route path='/' component={Inicio}/>
