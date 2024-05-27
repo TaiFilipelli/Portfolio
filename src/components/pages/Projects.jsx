@@ -1,6 +1,6 @@
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
 import 'react-vertical-timeline-component/style.min.css';
-import { PianoKeys,Coins } from "phosphor-react";
+import { PianoKeys,Coins,ShoppingCart } from "phosphor-react";
 import { Fade } from "react-awesome-reveal";
 const Projects = () => {
   return (
@@ -31,6 +31,17 @@ const Projects = () => {
           <h4 className="py-2">Aplicación web que emula la reproducción de un teclado. Permite al usuario tocar el piano con las teclas de su teclado y cuenta con funciones secundarias 
           como un modo oscuro/modo claro, mostrar u ocultar referencias de teclas y varios sintetizadores de teclado.</h4>
           <a href="https://piano-virtual-gold.vercel.app/" target='_blank'><img src='/src/assets/PianoVirtualProject.gif' alt="Preview Piano Project" /></a>
+        </VerticalTimelineElement>
+        <VerticalTimelineElement
+        className="vertical-timeline-element--education"
+        date="2024"
+        icon={<ShoppingCart/>}
+        iconStyle={{backgroundColor:'white',color:'#000'}}
+        contentStyle={{background:'#000'}}>
+          <h1 className='text-white font-bold text-2xl font-unisonIthalic'>MateLibre</h1>
+          <h4 className='py-2'>Aplicación web que fetchea la API de Mercado Libre y usa su vasto repertorio de articulos subidos en linea para desplegarlos en forma de tarjetas. Añade
+          conceptos como las animaciones, skeletons y otras herramientas que implementé por primera vez en mi proyecto para que quede más profesional.</h4>
+          <a href="https://matelibre.vercel.app" target="_blank"></a>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </section>
