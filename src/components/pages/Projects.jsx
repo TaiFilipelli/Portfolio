@@ -19,7 +19,7 @@ const Projects = () => {
         >
           <h1 className="text-white font-bold text-2xl font-unisonIthalic">Nexus Pricing</h1>
           <h4 className='py-2'>Página simple con el objetivo de desplegar planes con distintos precios para adquirir un motor gráfico ficticio llamado Nexus.</h4>
-          <a href="https://proyecto-pricing-o9or.vercel.app/" target='_blank'><img src="/public/Nexus Pricing Project.gif" alt="Preview Project Pricing" /></a>
+          <a href="https://proyecto-pricing-o9or.vercel.app/" target='_blank'><img src="/public/NexusPricingProject.gif" alt="Preview Project Pricing" /></a>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
           className="vertical-timeline-element--education"
@@ -30,7 +30,7 @@ const Projects = () => {
           <h1 className='text-white font-bold text-2xl font-unisonIthalic'>Piano Virtual con React</h1>
           <h4 className="py-2">Aplicación web que emula la reproducción de un teclado. Permite al usuario tocar el piano con las teclas de su teclado y cuenta con funciones secundarias 
           como un modo oscuro/modo claro, mostrar u ocultar referencias de teclas y varios sintetizadores de teclado.</h4>
-          <a href="https://piano-virtual-gold.vercel.app/" target='_blank'><img src='/public/Piano Virtual Project.gif' alt="Preview Piano Project" /></a>
+          <a href="https://piano-virtual-gold.vercel.app/" target='_blank'><img src='/public/PianoVirtualProject.gif' alt="Preview Piano Project" /></a>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </section>
