@@ -7,7 +7,7 @@ const Projects = () => {
     <section className="text-white">
         <Fade direction="left" duration='1300' cascade className='flex justify-center pt-6' triggerOnce>
             <h1 className='font-unisonBold text-4xl'>Proyectos personales:</h1>
-            <h3 className='font-unisonIthalic p-2 text-xl mb-7'>He trabajado en varios proyectos en los últimos 2 años y medio. Aquí los principales:</h3>
+            <h3 className='font-unisonLight p-2 text-xl mb-7'>He trabajado en varios proyectos en los últimos 2 años y medio. Aquí los principales:</h3>
         </Fade>
         <VerticalTimeline>
         <VerticalTimelineElement
