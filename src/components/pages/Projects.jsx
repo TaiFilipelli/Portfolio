@@ -4,11 +4,12 @@ import { PianoKeys,Coins,ShoppingCart } from "phosphor-react";
 import { Fade } from "react-awesome-reveal";
 const Projects = () => {
   return (
-    <section className="text-white">
+    <section className="projects-section text-white">
         <Fade direction="left" duration='1300' cascade className='flex justify-center pt-6' triggerOnce>
             <h1 className='font-unisonBold text-4xl'>Proyectos personales:</h1>
             <h3 className='font-unisonLight p-2 text-xl mb-7'>He trabajado en varios proyectos en los últimos 2 años y medio. Aquí los principales:</h3>
         </Fade>
+        <div className="projects-container">
         <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
@@ -44,6 +45,7 @@ const Projects = () => {
           <a href="https://matelibre.vercel.app" target="_blank"></a>
         </VerticalTimelineElement>
       </VerticalTimeline>
+    </div>
     </section>
   )
 }
