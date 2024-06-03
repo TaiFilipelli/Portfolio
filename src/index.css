@@ -48,7 +48,7 @@ h1 {
 }
 
 .projects-section{
-  height: 80vh;
+  height: 90vh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -58,4 +58,21 @@ h1 {
   overflow-y: auto;
   padding: 20px;
   box-sizing: border-box;
+}
+.projects-container::-webkit-scrollbar {
+  width: 13px;
+}
+
+.projects-container::-webkit-scrollbar-track {
+  background: none;
+}
+
+.projects-container::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.projects-container::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
