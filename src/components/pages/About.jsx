@@ -12,26 +12,24 @@ const About = () => {
           <h1 className='font-unisonBold text-3xl mb-6'>Personal</h1>
           <UserFocus size={40}/> 
         </div>
-        <p className='text-xl pb-5'>Naci el 22 de Febrero del 2004. Mi interés por la programación y la informática surgió en la pandemia del 2020, donde gracias a varios cursos
-        (y mientras cursaba quinto año del secundario) empecé a capacitarme con cursos en linea y videos en YouTube. En un mes aprendí la estructura básica de una computadora y
-        los principios de la programación y la algoritmia. En 2022, unos 4 meses después de mi graduación, pude anotarme en la UTN a la carrera de Tecnicatura Universitaria en Programación.
-        Y desde ahi no paré.</p>
+        <p className='text-xl pb-5'>I was born in February, 2004. My programming and computing interest started in the 2020 pandemic, where thanks to multiple online courses
+        (and while i was still in high school) i started to learn and train thanks to online content. In just one month, i learned about computers, their structure and functioning and
+        algorythmics and programming principles. In 2022, about 4 months after my graduation, i started in the Facultad Regional San Nicolas, on the University Degree on Programming.</p>
         <hr />
         <div className='flex justify-between my-6'>
-          <h1 className='font-unisonBold text-3xl'>Educacion</h1>
+          <h1 className='font-unisonBold text-3xl'>Education</h1>
           <GraduationCap size={35}/> 
         </div>
-        <p className='text-xl pb-5'>Mis estudios obligatorios los cumpli en la Escuela Secundaria Club Belgrano (2016-2021). La tecnincatura siguió inmediatamente después,
-        desde 2022 a 2024 en la Facultad Regional San Nicolas. Obviamente, gran parte de mis conocimientos se deben a aprendizajes extracurriculares que adquiri por mi cuenta gracias a cursos, 
-        videos, foros y mucho más.  </p>
+        <p className='text-xl pb-5'>I studied on the Club Belgrano High School(2016-2021). The degree followed right next to it, since 2022 to 2024. Obviously, most of my knowledges are 
+        from extracurricular courses that i acquired thanks to online content and study constancy. Even today, i still learning new technologies and new ways to do stuff.</p>
         <hr />
         <div className='flex justify-between my-6'>
           <h1 className='font-unisonBold text-3xl'>Atributtes</h1>
           <TerminalWindow size={35}/> 
         </div>
-        <p className='text-xl pb-5'>Soy una persona muy activa, con gran capacidad de trabajo en equipo y facilidad social. Suelo estar atento a los detalles y perfeccionar mis 
-        trabajos, asi como puedo adaptarme a cualquier tecnologia nueva que surja en el camino, gracias a mis ganas de aprender cosas nuevas constantemente. Soy responsable y puntual,
-        suelo ser muy exigente conmigo mismo y mi trabajo, me encanta estar todo el tiempo haciendo proyectos variados y poder ampliar mis conocimientos!</p>
+        <p className='text-xl pb-5'>I am a very active person, that like's team work and have a great social ease. I'm always aware to details and things so i can 
+        perfect and improve my work. In the same way, i can adapt to almost any new tech that is needed thanks to my always growing eager to learn new things constantly. I am responsible, 
+        formal and hardworking, I use to be very demaning with myself and my work. I also love to be working in my projects and abilites all the time, so i can expand myself and my knowledges!</p>
         <hr />
       </section>
       </Fade>

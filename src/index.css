@@ -19,6 +19,10 @@
   font-family: 'Unison Pro Light Italic';
   src: url('./assets/fonts/UnisonProLightItalic.otf');
 }
+@font-face {
+  font-family: 'Unison Pro Light Round';
+  src: url('./assets/fonts/UnisonProLightRound.otf');
+}
 :root {
   width: 100%;
   min-height: 100vh;

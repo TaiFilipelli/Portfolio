@@ -13,7 +13,8 @@ export default {
         unisonBold:['Unison Pro Bold','sans-serif'],
         unisonBoldIthalic:['Unison Pro Bold Italic','sans-serif'],
         unisonIthalic:['Unison Pro Light Italic','sans-serif'],
-        unisonLight:['Unison Pro Light','sans-serif']
+        unisonLight:['Unison Pro Light','sans-serif'],
+        unisonLightRound:['Unison Pro Light Round','sans-serif']
       },
       height:{
         '80vh':'80vh'

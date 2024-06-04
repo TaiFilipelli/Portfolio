@@ -1,12 +1,11 @@
 import { useState } from 'react';
 import { sendEmail } from '../../emailService';
-
+import { PaperPlaneRight } from 'phosphor-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    subject: '',
     message: '',
   });
 
@@ -21,7 +20,6 @@ const Contact = () => {
     const templateParams = {
       from_name: formData.name,
       from_email: formData.email,
-      user_subject: formData.subject,
       message: formData.message,
       to_name: 'Taiel', 
     };
@@ -29,7 +27,7 @@ const Contact = () => {
     sendEmail(templateParams)
       .then(() => {
         alert('Message sent successfully!');
-        setFormData({ name: '', email: '', subject: '', message: '' });
+        setFormData({ name: '', email: '', message: '' });
       })
       .catch((error) => {
         alert('Failed to send the message. Please try again.',error);
@@ -37,58 +35,43 @@ const Contact = () => {
   };
 
   return (
-    <section className='flex justify-center text-center flex-col pl-10'>
-    <h1 className='text-white font-unisonBoldIthalic text-2xl my-6'>Trabajemos juntos en hacer posible tu próximo proyecto!</h1>
-    <form onSubmit={handleSubmit} className='text-white w-1/2 p-10 rounded-lg bg-slate-950 gap-3'>
-      <div className='p-4'>
-        <label htmlFor="name" className='font-unisonLight'>Nombre</label>
-        <input
+    <section className='flex flex-wrap justify-between items-center pl-10 h-80vh'>
+      <div className='flex-1 p-4 border-spacing-px text-white'>
+        <h1 className='font-unisonBoldIthalic text-6xl mb-10'>Let's work <br /> in your new project <span className='bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent'>together!</span></h1>
+        <h3 className='font-unisonBoldIthalic text-2xl my-3'>Complete the message and i will <br />answer as soon as possible!</h3>
+      </div>
+    <form onSubmit={handleSubmit} className='text-white w-1/2 p-10 rounded-lg gap-3'>
+      <h1 className='text-3xl font-unisonLightRound'>Hi! My name is<input
           type="text"
           id="name"
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className='rounded-sm ml-4 bg-slate-800 hover:bg-slate-500'
+          className='rounded-sm ml-4 bg-transparent hover:bg-slate-500 w-2/5 text-2xl p-2 border-transparent underline-offset-0 focus:outline-none'
           required
+          placeholder='Your name'
+          
         />
-      </div>
-      <div className='p-4'>
-        <label htmlFor="email" className='font-unisonLight'>Email</label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          value={formData.email}
-          onChange={handleChange}
-          className='rounded-sm ml-4 bg-slate-800 hover:bg-slate-500'
-          required
-        />
-      </div>
-      <div className='p-4'>
-        <label htmlFor="subject" className='font-unisonLight'>Asunto</label>
-        <input
-          type="text"
-          id="subject"
-          name="subject"
-          value={formData.subject}
-          onChange={handleChange}
-          className='rounded-sm ml-4 bg-slate-800 hover:bg-slate-500'
-          required
-        />
-      </div>
-      <div className='p-4'>
-        <label htmlFor="message" className='font-unisonLight'>Mensaje</label>
-        <textarea
-          id="message"
-          name="message"
-          value={formData.message}
-          onChange={handleChange}
-          className='rounded-sm ml-4 bg-slate-800 hover:bg-slate-500'
-          required
-        ></textarea>
-      </div>
-      <div>
-        <button type="submit" className='rounded-lg bg-black p-4 my-3'>Enviar</button>
+      and i have a <input
+        type="text"
+        id="subject"
+        name="subject"
+        value={formData.message}
+        onChange={handleChange}
+        className='rounded-sm ml-4 bg-transparent hover:bg-slate-500 w-3/5 text-2xl p-2 border-transparent underline-offset-0 focus:outline-none'
+        required
+        placeholder='Your project/website'
+      /> that needs help. If you wish to be part of it, you can reach me anytime at <input
+      type="email"
+      id="email"
+      name="email"
+      value={formData.email}
+      onChange={handleChange}
+      className='rounded-sm ml-4 bg-transparent hover:bg-slate-500 w-3/5 text-2xl p-2 border-transparent underline-offset-0 focus:outline-none'
+      required
+      placeholder='your email adress'/> so we can talk about it!</h1>
+      <div className='flex flex-row'>
+        <button type="submit" className='rounded-lg bg-transparent p-4 text-xl my-3 font-unisonBold'>Let's get started!<PaperPlaneRight size={30}/></button>
       </div>
     </form>
   </section>
