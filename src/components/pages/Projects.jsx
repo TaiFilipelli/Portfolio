@@ -20,7 +20,7 @@ const Projects = () => {
         >
           <h1 className="text-white font-bold text-2xl font-unisonIthalic">Nexus Pricing</h1>
           <h4 className='py-2'>Página simple con el objetivo de desplegar planes con distintos precios para adquirir un motor gráfico ficticio llamado Nexus.</h4>
-          <a href="https://proyecto-pricing-o9or.vercel.app/" target='_blank'><img src='/src/assets/Pricing.png' alt="Preview Project Pricing" /></a>
+          <a href="https://proyecto-pricing-o9or.vercel.app/" target='_blank'><img src='../../assets/Pricing.png' alt="Preview Project Pricing" /></a>
         </VerticalTimelineElement>
         <VerticalTimelineElement 
           className="vertical-timeline-element--education"
@@ -31,7 +31,7 @@ const Projects = () => {
           <h1 className='text-white font-bold text-2xl font-unisonIthalic'>Piano Virtual con React</h1>
           <h4 className="py-2">Aplicación web que emula la reproducción de un teclado. Permite al usuario tocar el piano con las teclas de su teclado y cuenta con funciones secundarias 
           como un modo oscuro/modo claro, mostrar u ocultar referencias de teclas y varios sintetizadores de teclado.</h4>
-          <a href="https://piano-virtual-gold.vercel.app/" target='_blank'><img src='/src/assets/PianoVirtual.png' alt="Preview Piano Project" /></a>
+          <a href="https://piano-virtual-gold.vercel.app/" target='_blank'><img src='../../assets/PianoVirtual.png' alt="Preview Piano Project" /></a>
         </VerticalTimelineElement>
         <VerticalTimelineElement
         className="vertical-timeline-element--education"
@@ -42,7 +42,7 @@ const Projects = () => {
           <h1 className='text-white font-bold text-2xl font-unisonIthalic'>MateLibre</h1>
           <h4 className='py-2'>Aplicación web que fetchea la API de Mercado Libre y usa su vasto repertorio de articulos subidos en linea para desplegarlos en forma de tarjetas. Añade
           conceptos como las animaciones, skeletons y otras herramientas que implementé por primera vez en mi proyecto para que quede más profesional.</h4>
-          <a href="https://matelibre.vercel.app" target="_blank"><img src="/src/assets/MateLibre.png" alt="Preview Mate Libre"/></a>
+          <a href="https://matelibre.vercel.app" target="_blank"><img src="../../assets/MateLibre.png" alt="Preview Mate Libre"/></a>
         </VerticalTimelineElement>
       </VerticalTimeline>
     </div>
