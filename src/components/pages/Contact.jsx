@@ -54,8 +54,8 @@ const Contact = () => {
         />
       and i have a <input
         type="text"
-        id="subject"
-        name="subject"
+        id="message"
+        name="message"
         value={formData.message}
         onChange={handleChange}
         className='rounded-sm ml-4 bg-transparent hover:bg-slate-500 w-3/5 text-2xl p-2 border-transparent underline-offset-0 focus:outline-none'
