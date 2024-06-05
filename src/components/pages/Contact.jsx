@@ -70,7 +70,7 @@ const Contact = () => {
       className='rounded-sm ml-4 bg-transparent hover:bg-slate-500 w-3/5 text-2xl p-2 border-transparent underline-offset-0 focus:outline-none'
       required
       placeholder='your email adress'/> so we can talk about it!</h1>
-      <div className='flex flex-row'>
+      <div className='w-full flex flex-row'>
         <button type="submit" className='rounded-lg bg-transparent p-4 text-xl my-3 font-unisonBold'>Let's get started!<PaperPlaneRight size={30}/></button>
       </div>
     </form>

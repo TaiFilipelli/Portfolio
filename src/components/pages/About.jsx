@@ -12,7 +12,7 @@ const About = () => {
           <h1 className='font-unisonBold text-3xl mb-6'>Personal</h1>
           <UserFocus size={40}/> 
         </div>
-        <p className='text-xl pb-5'>I was born in February, 2004. My programming and computing interest started in the 2020 pandemic, where thanks to multiple online courses
+        <p className='text-xl pb-5'>I was born on February 2004, on San Nicolas de los Arroyos, Argentina. My programming and computing interest started in the 2020 pandemic, where thanks to multiple online courses
         (and while i was still in high school) i started to learn and train thanks to online content. In just one month, i learned about computers, their structure and functioning and
         algorythmics and programming principles. In 2022, about 4 months after my graduation, i started in the Facultad Regional San Nicolas, on the University Degree on Programming.</p>
         <hr />
