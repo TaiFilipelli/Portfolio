@@ -47,7 +47,7 @@ const Contact = () => {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className='rounded-sm ml-4 bg-transparent hover:bg-slate-500 w-2/5 text-2xl p-2 border-transparent underline-offset-0 focus:outline-none'
+          className='rounded-sm ml-4 bg-transparent hover:bg-slate-500 w-2/5 text-2xl p-2 border-transparent underline-offset-0 focus:outline-none border-b-2 border-slate-200'
           required
           placeholder='Your name'
           
@@ -58,7 +58,7 @@ const Contact = () => {
         name="message"
         value={formData.message}
         onChange={handleChange}
-        className='rounded-sm ml-4 bg-transparent hover:bg-slate-500 w-3/5 text-2xl p-2 border-transparent underline-offset-0 focus:outline-none'
+        className='rounded-sm ml-4 bg-transparent hover:bg-slate-500 w-3/5 text-2xl p-2 border-transparent underline-offset-0 focus:outline-none border-b-2 border-slate-200'
         required
         placeholder='Your project/website'
       /> that needs help. If you wish to be part of it, you can reach me anytime at <input
@@ -67,7 +67,7 @@ const Contact = () => {
       name="email"
       value={formData.email}
       onChange={handleChange}
-      className='rounded-sm ml-4 bg-transparent hover:bg-slate-500 w-3/5 text-2xl p-2 border-transparent underline-offset-0 focus:outline-none'
+      className='rounded-sm ml-4 bg-transparent hover:bg-slate-500 w-3/5 text-2xl p-2 border-transparent underline-offset-0 focus:outline-none border-b-2 border-slate-200'
       required
       placeholder='your email adress'/> so we can talk about it!</h1>
       <div className='w-full flex flex-row'>

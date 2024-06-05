@@ -30,7 +30,6 @@ const About = () => {
         <p className='text-xl pb-5'>I am a very active person, that like's team work and have a great social ease. I'm always aware to details and things so i can 
         perfect and improve my work. In the same way, i can adapt to almost any new tech that is needed thanks to my always growing eager to learn new things constantly. I am responsible, 
         formal and hardworking, I use to be very demaning with myself and my work. I also love to be working in my projects and abilites all the time, so i can expand myself and my knowledges!</p>
-        <hr />
       </section>
       </Fade>
     </section>
