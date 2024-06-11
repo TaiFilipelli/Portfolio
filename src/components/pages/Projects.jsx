@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <section className="projects-section text-white">
         <Fade direction="left" duration='1300' cascade className='flex justify-center pt-6' triggerOnce>
-            <h1 className='font-unisonBold text-4xl'>Personal <span className="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">Projects</span></h1>
+            <h1 className='font-unisonBold text-4xl max-[571px]:mt-20'>Personal <span className="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">Projects</span></h1>
             <h3 className='font-unisonLight p-2 text-xl mb-7'>I've been working on many projects on the last 2 and a half years. Here are the main ones:</h3>
         </Fade>
         <div className="projects-container">
