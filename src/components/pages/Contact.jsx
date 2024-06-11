@@ -35,12 +35,12 @@ const Contact = () => {
   };
 
   return (
-    <section className='flex flex-wrap justify-between items-center pl-10 h-80vh'>
-      <div className='flex-1 p-4 border-spacing-px text-white'>
+    <section className='flex flex-wrap justify-between items-center pl-10 h-80vh max-[1137px]:flex-col max-[1137px]:items-center max-[1137px]:justify-center'>
+      <div className='flex-1 p-4 border-spacing-px text-white max-[1137px]:w-full'>
         <h1 className='font-unisonBoldIthalic text-6xl mb-10'>Let's work <br /> in your new project <span className='bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent'>together!</span></h1>
         <h3 className='font-unisonBoldIthalic text-2xl my-3'>Complete the message and i will <br />answer as soon as possible!</h3>
       </div>
-    <form onSubmit={handleSubmit} className='text-white w-1/2 p-10 rounded-lg gap-3'>
+    <form onSubmit={handleSubmit} className='text-white w-1/2 p-10 rounded-lg gap-3 max-[1137px]:w-full'>
       <h1 className='text-3xl font-unisonLightRound'>Hi! My name is<input
           type="text"
           id="name"
