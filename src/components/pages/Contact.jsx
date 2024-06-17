@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <section className='flex flex-wrap justify-between items-center pl-10 h-80vh max-[1137px]:flex-col max-[1137px]:items-center max-[1137px]:justify-center'>
+    <section className='flex flex-wrap justify-between items-center pl-10 h-80vh max-[1137px]:flex-row'>
       <div className='flex-1 p-4 border-spacing-px text-white max-[1137px]:w-full'>
         <h1 className='font-unisonBoldIthalic text-6xl mb-10'>Let's work <br /> in your new project <span className='bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent'>together!</span></h1>
         <h3 className='font-unisonBoldIthalic text-2xl my-3'>Complete the message and i will <br />answer as soon as possible!</h3>
@@ -70,8 +70,9 @@ const Contact = () => {
       className='rounded-sm ml-4 bg-transparent hover:bg-slate-500 w-3/5 text-2xl p-2 border-transparent underline-offset-0 focus:outline-none border-b-2 border-slate-200'
       required
       placeholder='your email adress'/> so we can talk about it!</h1>
-      <div className='w-full flex flex-row'>
-        <button type="submit" className='rounded-lg bg-transparent p-4 text-xl my-3 font-unisonBold'>Let's get started!<PaperPlaneRight size={30}/></button>
+      <div className='w-full flex-row'>
+        <button type="submit" className='rounded-lg bg-transparent p-4 text-xl my-3 font-unisonBold'>Let's get started!
+          <PaperPlaneRight size={30}/></button>
       </div>
     </form>
   </section>
