@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { sendEmail } from '../../emailService';
-import { PaperPlaneRight } from 'phosphor-react';
+import { PaperPlaneRight} from 'phosphor-react';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -35,9 +35,10 @@ const Contact = () => {
   };
 
   return (
+    <>
     <section className='flex flex-wrap justify-between items-center pl-10 h-80vh max-[1137px]:flex-row'>
       <div className='flex-1 p-4 border-spacing-px text-white max-[1137px]:w-full'>
-        <h1 className='font-unisonBoldIthalic text-6xl mb-10'>Let's work <br /> in your new project <span className='bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent'>together!</span></h1>
+        <h1 className='font-unisonBoldIthalic text-6xl mb-10'>Lets work <br /> in your new project <span className='bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent'>together!</span></h1>
         <h3 className='font-unisonBoldIthalic text-2xl my-3'>Complete the message and i will <br />answer as soon as possible!</h3>
       </div>
     <form onSubmit={handleSubmit} className='text-white w-1/2 p-10 rounded-lg gap-3 max-[1137px]:w-full'>
@@ -71,11 +72,14 @@ const Contact = () => {
       required
       placeholder='your email adress'/> so we can talk about it!</h1>
       <div className='w-full flex-row'>
-        <button type="submit" className='rounded-lg bg-transparent p-4 text-xl my-3 font-unisonBold'>Let's get started!
+        <button type="submit" className='rounded-lg bg-transparent p-4 text-xl my-3 font-unisonBold'>Lets get started!
           <PaperPlaneRight size={30}/></button>
       </div>
     </form>
   </section>
+  <h1 className='font-unisonBoldIthalic text-xl text-white mx-10'>If you want to communicate more specifically with me, you can send me a custom email to my professional adress: taielfilipelli@gmail.com. 
+    You can also reach me on my Linkedin account <a href='linkedin.com/in/taiel-filipelli-b10890273/' className='hover:underline text-blue-400'>here</a>!</h1>
+  </>
     
   );
 }
