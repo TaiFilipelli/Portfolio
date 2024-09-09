@@ -1,0 +1,46 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+import Navbar from '../components/Navbar.astro';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/codificacion.png" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<body class="h-auto w-full p-6 bg-gradient-to-b from-slate-800 to-slate-950 bg-no-repeat">
+		<Navbar/>
+		<slot />
+	</body>
+</html>
+<style>
+@font-face {
+  font-family: 'Unison Pro Bold';
+  src: url('/public/fonts/UnisonProBold.otf');
+}
+@font-face {
+  font-family: 'Unison Pro Bold Italic';
+  src: url('/public/fonts/UnisonProBoldItalic.otf');
+}
+@font-face {
+  font-family: 'Unison Pro Light';
+  src: url('/public/fonts/UnisonProLight.otf');
+}
+@font-face {
+  font-family: 'Unison Pro Light Italic';
+  src: url('/public/fonts/UnisonProLightItalic.otf');
+}
+@font-face {
+  font-family: 'Unison Pro Light Round';
+  src: url('/public/fonts/UnisonProLightRound.otf');
+}
+</style>
