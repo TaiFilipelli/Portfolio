@@ -7,8 +7,8 @@ import {Fade, Slide} from "react-awesome-reveal"
 ---
 
 <Layout title="Another curly crazy dev">
-	<main class="text-white p-20">
-		<section class="text-3xl mt-8 p-20 pb-40">
+	<main class="text-white p-20 max-[735px]:p-10 max-[400px]:px-4">
+		<section class="text-3xl mt-8 p-20 pb-40 max-[572px]:pt-0 max-[573px]:px-0">
 			<Fade duration={1000} triggerOnce client:load>
 				<h1 class="text-8xl mt-8 font-unisonBold">Hi,</h1> 
 				<h1 class="text-7xl font-unisonBold mb-7">I am <span class="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">Taiel!</span></h1>
@@ -26,7 +26,7 @@ import {Fade, Slide} from "react-awesome-reveal"
 			<Fade className="about-container" delay={400} duration={1000} triggerOnce cascade client:load>
 				<div>
 					<div class='flex justify-between'>
-					  <h1 class='font-unisonBold text-3xl mb-6 max-[410px]:text-2xl'>Personal</h1>
+					  <h1 class='font-unisonBold text-3xl mb-6 max-[430px]:text-2xl'>Personal</h1>
 					  <UserFocus size={40}/> 
 					</div>
 					<p class='text-xl pb-4'>I was born on February 2004, on San Nicolas de los Arroyos, Argentina. My programming and computing interest started in the 2020 pandemic, where thanks to multiple online courses
@@ -37,7 +37,7 @@ import {Fade, Slide} from "react-awesome-reveal"
 				</div>
 				<div>
 					<div class='flex justify-between my-6'>
-					  <h1 class='font-unisonBold text-3xl max-[410px]:text-2xl'>Education</h1>
+					  <h1 class='font-unisonBold text-3xl max-[430px]:text-2xl'>Education</h1>
 					  <GraduationCap size={35}/> 
 					</div>
 					<p class='text-xl pb-4'>I studied on the Club Belgrano High School (2016-2021). The degree followed right next to it, since 2022 to 2024. Even tho, most of my knowledges are 
@@ -47,7 +47,7 @@ import {Fade, Slide} from "react-awesome-reveal"
 				</div>
 				<div>
 					<div class='flex justify-between my-6'>
-					  <h1 class='font-unisonBold text-3xl max-[410px]:text-2xl'>Atributtes</h1>
+					  <h1 class='font-unisonBold text-3xl max-[430px]:text-2xl'>Atributtes</h1>
 					  <TerminalWindow size={35}/> 
 					</div>
 					<p class='text-xl pb-4'>I am a very active person, that likes team work and have a great social ease. I am always aware to details and things so i can 
@@ -58,13 +58,13 @@ import {Fade, Slide} from "react-awesome-reveal"
 		</section>
 		<section id="exp" class="text-white mt-24">
 			<Fade direction="left" delay={400} duration={1000} cascade className="flex justify-center pt-6" triggerOnce client:load>
-				<h1 class="font-unisonBoldIthalic text-5xl mb-6">Personal <span class="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">Projects</span></h1>
+				<h1 class="font-unisonBoldIthalic text-5xl mb-6 max-[430px]:text-4xl">Personal <span class="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">Projects</span></h1>
 			</Fade>
 			<Timeline client:load/>
 		</section>
 		<section class="flex items-center flex-col justify-center mt-20">
 			<h1 class="text-3xl font-unisonBold">My <span class="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">stacks</span></h1>
-			<ul class="flex flex-wrap mt-16 bg-gray-900 p-6 rounded-2xl">
+			<ul class="flex flex-wrap mt-16 bg-gray-900 p-6 max-[439px]:p-3 rounded-2xl max-[343px]:p-0">
 				<li class="p-4 rounded-full group text-center">
 					<div class="bg-transparent group-hover:bg-[#F0DB4F] rounded-full transition-colors z-0 p-6">
 						<img src="/js.svg" alt="JavaScript" class="w-16 h-16 z-10">
@@ -159,13 +159,8 @@ import {Fade, Slide} from "react-awesome-reveal"
 </Layout>
 
 <style>
-.projects-section{
-  height: 90vh;
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-}
-.projects-container, .about-container{
+
+.about-container{
   flex-grow: 1;
   overflow-y: auto;
   padding: 20px;
@@ -174,21 +169,3 @@ import {Fade, Slide} from "react-awesome-reveal"
 .about-container{
   padding: 0;
 }
-.projects-container::-webkit-scrollbar, .about-container::-webkit-scrollbar {
-  width: 13px;
-}
-
-.projects-container::-webkit-scrollbar-track, .about-container::-webkit-scrollbar-track {
-  background: none;
-}
-
-.projects-container::-webkit-scrollbar-thumb, .about-container::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.projects-container::-webkit-scrollbar-thumb:hover, .about-container::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-</style>
