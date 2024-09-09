@@ -5,6 +5,7 @@ interface Props {
 
 const { title } = Astro.props;
 import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
 ---
 
 <!doctype html>
@@ -17,9 +18,10 @@ import Navbar from '../components/Navbar.astro';
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
 	</head>
-	<body class="h-auto w-full p-6 bg-gradient-to-b from-slate-800 to-slate-950 bg-no-repeat max-[572px]:pr-0 overflow-x-hidden max-[400px]:pl-0">
+	<body class="h-auto w-full pt-6 bg-gradient-to-b from-slate-800 to-slate-950 bg-no-repeat max-[572px]:pr-0 overflow-x-hidden max-[400px]:pl-0">
 		<Navbar/>
 		<slot />
+		<Footer/>
 	</body>
 </html>
 <style>

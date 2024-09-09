@@ -1,6 +1,15 @@
 ---
-
+import {GithubLogo, InstagramLogo, LinkedinLogo, Envelope} from '@phosphor-icons/react'
 ---
-<footer class="bg-gray-700">
-
+<footer class="bg-gray-700 w-auto p-20 flex flex-col text-black text-center">
+    <div class="flex flex-row gap-4 justify-center">
+        <a href="https://github.com/TaiFilipelli" class="bg-gray-500 p-4 rounded-3xl hover:bg-gray-300 transition-colors"><GithubLogo size={50}/></a>
+        <a href="https://www.instagram.com/tai_filipelli_?igsh=YXNqdzd1Znp4eXB6" class="bg-gray-500 p-4 rounded-3xl hover:bg-gray-300 transition-colors"><InstagramLogo size={50}/></a>
+        <a href="https://www.linkedin.com/in/taiel-filipelli/" class="bg-gray-500 p-4 rounded-3xl hover:bg-gray-300 transition-colors"><LinkedinLogo size={50}/></a>
+    </div>
+    <div class="flex flex-row items-center justify-center mt-4 mb-8">
+        <Envelope size={50}/>
+        <p class="my-4 text-lg font-semibold">taielfilipelli@gmail.com</p>
+    </div>
+    <p class="text-lg font-extralight">Copyright © 2024 - All right reserved by Filipelli Taiel</p>
 </footer>
