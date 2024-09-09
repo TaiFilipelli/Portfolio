@@ -23,7 +23,7 @@ import {Fade, Slide} from "react-awesome-reveal"
 			<Slide direction="left" duration={1000} triggerOnce client:load>
 				<h1 class="text-5xl font-unisonBoldIthalic mb-11">About <span class="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">Me</span></h1>
 			</Slide>
-			<Fade class="about-container" delay={400} duration={1000} triggerOnce cascade client:load>
+			<Fade className="about-container" delay={400} duration={1000} triggerOnce cascade client:load>
 				<div>
 					<div class='flex justify-between'>
 					  <h1 class='font-unisonBold text-3xl mb-6 max-[410px]:text-2xl'>Personal</h1>
@@ -57,7 +57,7 @@ import {Fade, Slide} from "react-awesome-reveal"
 			</Fade>
 		</section>
 		<section id="exp" class="text-white mt-24">
-			<Fade direction="left" delay={400} duration={1000} cascade class="flex justify-center pt-6" triggerOnce client:load>
+			<Fade direction="left" delay={400} duration={1000} cascade className="flex justify-center pt-6" triggerOnce client:load>
 				<h1 class="font-unisonBoldIthalic text-5xl mb-6">Personal <span class="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">Projects</span></h1>
 			</Fade>
 			<Timeline client:load/>
