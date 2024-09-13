@@ -19,7 +19,7 @@ const Timeline = () => {
           contentStyle={{ backgroundColor: '#000', boxShadow: 'none' }}>
         <h1 className="text-white font-bold text-2xl font-unisonBold">Nexus Pricing</h1>
         <h4 className="py-2">
-          SPA (Single Page Application) with the goal of displaying different pricing plans for a fictional Graphics Engine called Nexus. It is a
+          A small landing page with the goal of displaying different pricing plans for a fictional Graphics Engine called Nexus. It is a
           Vanilla project, which means it uses only HTML and CSS. The page features a landing page with 3 different plans available and their respective price and another
           page that allows you to insert fictional payment data to subscribe to the engine!
         </h4>
@@ -37,7 +37,7 @@ const Timeline = () => {
         contentStyle={{ background: '#000', boxShadow: 'none' }}>
         <h1 className="text-white font-bold text-2xl font-unisonBold">Virtual Piano</h1>
         <h4 className="py-2">
-          Web App whose goal is to emulate, in the most respectful way, a music keyboard. It allows you to play it just with the keys on your keyboard and
+          Web App whose goal is to emulate, in the most respectful way, a virtual synthesizer. It allows you to play it just with the keys on your keyboard and
           has some secondary functions like Dark Mode/Light Mode, show or hide the references on the keys on screen, and 4 different kinds of keyboard synthesizers.
         </h4>
         <div className='w-full gap-3 flex flex-wrap mb-8 cursor-default'>
@@ -56,8 +56,8 @@ const Timeline = () => {
         iconStyle={{backgroundColor:'white',color:'#000'}}
         contentStyle={{background:'#000',boxShadow:'none'}}>
           <h1 className='text-white font-bold text-2xl font-unisonBold'>MateLibre</h1>
-          <h4 className='py-2'>Web App that use a fetch to an external API (Mercado Libre) and uses its vast repertory of articles published online to deploy them on card-shaped containers.
-          Adds new concepts and things like animations, skeletons and other tools that i used for the first time. This way, the app looks every day a bit more profesional.</h4>
+          <h4 className='py-2'>Web App that fetchs an external API (Mercado Libre) and uses its vast repertory of articles published online to deploy them in card-shaped containers.
+          Adds new concepts and things like animations, skeletons and other tools that i used for the first time. This way, the app looks a bit more profesional.</h4>
           <div className='w-full gap-3 flex flex-wrap mb-8 cursor-default'>
             <p className='bg-white text-black py-1 px-3 rounded-xl'>React</p>
             <p className='bg-white text-black py-1 px-3 rounded-xl'>TailwindCSS</p>
