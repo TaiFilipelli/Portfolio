@@ -8,7 +8,7 @@ import React from 'react'
 const Timeline = () => {
   return (
     <section className="text-white">
-      <Fade delay={400} duration={1000}>
+      <Fade delay={200} duration={600}>
         <VerticalTimeline>
           <VerticalTimelineElement
           className="vertical-timeline-element--education"

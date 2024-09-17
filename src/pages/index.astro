@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import {TypeAnimation} from "react-type-animation"
 import Timeline from '../components/Timeline'
-import {UserFocus, GraduationCap, TerminalWindow, GithubLogo} from "@phosphor-icons/react"
+import {UserFocus, GraduationCap, TerminalWindow, GithubLogo, InstagramLogo, LinkedinLogo} from "@phosphor-icons/react"
 import {Fade, Slide} from "react-awesome-reveal"
 ---
 
@@ -12,58 +12,26 @@ import {Fade, Slide} from "react-awesome-reveal"
 			<Fade duration={1000} triggerOnce client:load>
 				<h1 class="text-8xl mt-8 font-unisonBold max-[350px]:text-7xl">Hi,</h1> 
 				<h1 class="text-7xl max-[350px]:text-6xl font-unisonBold mb-7">I am <span class="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">Taiel!</span></h1>
-				<TypeAnimation sequence={["FullStack Developer",1000,"Freelancer",1000,"Videogame enjoyer",1000,"Student",1000]} wrapper="span" repeat={3} style={{display:'inline-block',fontFamily:'Unison Pro Bold Italic',color:'white',}} client:load/>
-				<p class="mt-10 text-2xl mb-10">I am Filipelli, a young trainee from Argentina <img src="/Flag_of_Argentina.png" alt="Argentina Flag" class="inline w-10 h-6"/> who loves technology, 
-				videogames and football!<br>I started slowly but steady inserting myself into tech-world on 2020 and, since that moment, <br> i never stopped learning. I'm always pushing 
-				myself forward, i also can easily adapt<br> myself to any kind of work group and i always look forward to be better on every aspect!</p>
-				<a class="font-unisonIthalic text-lg hover:underline hover:text-slate-400 transition-all" href="https://github.com/TaiFilipelli?tab=repositories" target="_blank">See my work! <GithubLogo size={30}/></a>
-			</Fade>
-		</section>
-		<section class="mt-14 pb-14" id="about" >
-			<Slide direction="left" duration={300} triggerOnce client:load>
-				<h1 class="text-5xl font-unisonBoldIthalic mb-11">About <span class="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">Me</span></h1>
-			</Slide>
-			<Fade className="about-container" delay={400} duration={1000} triggerOnce cascade client:load>
-				<div>
-					<div class='flex justify-between'>
-					  <h1 class='font-unisonBold text-3xl mb-6 max-[430px]:text-2xl'>Personal</h1>
-					  <UserFocus size={40}/> 
-					</div>
-					<p class='text-xl pb-4'>I was born on February 2004, on San Nicolas de los Arroyos, Argentina. My programming and computing interest started in the 2020 pandemic, where
-					i started to learn and practice thanks to online content. In just one month, i learned about computers, their structure and functioning and
-					algorythmics and programming principles. In 2022, about 4 months after my graduation, i started in the Facultad Regional San Nicolas, on the University Degree on Programming. Since July 2024, my studies on the 
-					university are oficially finished! The only thing left is to work on my final project to finally get my title!</p>
-					<hr/>
+				<TypeAnimation sequence={["FullStack Developer",1000,"Freelancer",1000,"Gamer",1000,"Student",1000]} wrapper="span" repeat={3} style={{display:'inline-block',fontFamily:'Unison Pro Bold Italic',color:'white',}} client:load/>
+				<div class="text-wrap w-2/3">
+					<p class="mt-10 text-2xl mb-10">Fullstack Developer from Argentina with more than 2 years of solid
+					experience on Web Development. </p>
 				</div>
-				<div>
-					<div class='flex justify-between my-6'>
-					  <h1 class='font-unisonBold text-3xl max-[430px]:text-2xl'>Education</h1>
-					  <GraduationCap size={35}/> 
-					</div>
-					<p class='text-xl pb-4'>I studied on the Club Belgrano High School (2016-2021). The degree followed right next to it, since 2022 to 2024. Even tho, most of my knowledges are 
-					from extracurricular courses that i acquired thanks to online content and study constancy. Even today, i am still learning new technologies and new ways to do stuff. Some of my current courses are unrelated to
-					web design: OpenCV on Python for facial recognition, Machine Learning algorythms and ethical hacking to improve my cybersecurity knowledge.</p>
-					<hr/>
-				</div>
-				<div>
-					<div class='flex justify-between my-6'>
-					  <h1 class='font-unisonBold text-3xl max-[430px]:text-2xl'>Atributtes</h1>
-					  <TerminalWindow size={35}/> 
-					</div>
-					<p class='text-xl pb-4'>I am a very active person, that likes team work and have a great social ease. I am always aware to details and things so i can 
-					perfect and improve my work. In the same way, i can adapt to almost any new tech that is needed thanks to my always growing eager to learn new things constantly. I am responsible, 
-					formal and hardworking, I use to be very demaning with myself and my work. I also love to be working in my projects and abilites all the time, so i can expand myself and my knowledges!</p>
+				<div class="flex flex-row gap-4">
+					<a href="https://github.com/TaiFilipelli" class="bg-gray-500 p-4 rounded-3xl hover:bg-gray-300 transition-colors"><GithubLogo size={50}/></a>
+					<a href="https://www.instagram.com/tai_filipelli_?igsh=YXNqdzd1Znp4eXB6" class="bg-gray-500 p-4 rounded-3xl hover:bg-gray-300 transition-colors"><InstagramLogo size={50}/></a>
+					<a href="https://www.linkedin.com/in/taiel-filipelli/" class="bg-gray-500 p-4 rounded-3xl hover:bg-gray-300 transition-colors"><LinkedinLogo size={50}/></a>
 				</div>
 			</Fade>
 		</section>
-		<section id="exp" class="text-white mt-24">
-			<Fade direction="left" delay={400} duration={1000} cascade className="flex justify-center pt-6" triggerOnce client:load>
+		<section id="exp" class="text-white mt-10">
+			<Fade direction="left" duration={700} cascade className="flex justify-center pt-6" triggerOnce client:load>
 				<h1 class="font-unisonBoldIthalic text-5xl mb-6 max-[430px]:text-4xl">Personal <span class="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">Projects</span></h1>
 			</Fade>
 			<Timeline client:load/>
 		</section>
-		<section class="flex items-center flex-col justify-center mt-20">
-			<h1 class="text-3xl font-unisonBold">My <span class="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">stacks</span></h1>
+		<section class="flex items-center flex-col justify-center my-20">
+			<h1 class="text-4xl font-unisonBold">My <span class="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">stacks</span></h1>
 			<ul class="flex flex-wrap mt-16 bg-gray-800 p-6 max-[439px]:p-3 rounded-2xl max-[343px]:p-0">
 				<li class="p-4 rounded-full group text-center">
 					<div class="bg-transparent group-hover:bg-[#F0DB4F] rounded-full transition-colors z-0 p-6">
@@ -154,6 +122,42 @@ import {Fade, Slide} from "react-awesome-reveal"
 					</span>
 				</li>
 			</ul>
+		</section>
+		<section class="mt-14 pb-14" id="about" >
+			<Slide direction="left" duration={500} triggerOnce client:load>
+				<h1 class="text-5xl font-unisonBoldIthalic mb-11">About <span class="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">Me</span></h1>
+			</Slide>
+			<Fade className="about-container flex flex-col gap-3" delay={400} duration={1000} triggerOnce cascade client:load>
+				<div class="bg-black p-5 rounded-2xl">
+					<div class='flex justify-between'>
+					  <h1 class='font-unisonBold text-3xl mb-6 max-[430px]:text-2xl'>Personal</h1>
+					  <UserFocus size={40}/> 
+					</div>
+					<p class='text-xl pb-4'>Born in February 2004 in San Nicolas de los Arroyos, Argentina, my passion for programming and computing ignited during the 2020 pandemic. 
+						Through online resources, a month of intensive learning covered computer structure, functioning, algorithms, and programming principles. 
+						Four months after high school graduation in 2022, my enrollment in the University Degree on Programming at Facultad Regional San Nicolas began. 
+						As of July 2024, my academic studies have concluded, with only the final project remaining to secure the degree.
+					</p>
+				</div>
+				<div class="bg-black p-5 rounded-2xl">
+					<div class='flex justify-between my-6'>
+					  <h1 class='font-unisonBold text-3xl max-[430px]:text-2xl'>Education</h1>
+					  <GraduationCap size={35}/> 
+					</div>
+					<p class='text-xl pb-4'>I studied on the Club Belgrano High School (2016-2021). The degree followed right next to it, since 2022 to 2024. Even tho, most of my knowledges are 
+					from extracurricular courses thanks to online content and study constancy. Even today, i am still learning new technologies and new ways to do stuff. Some of my current courses are unrelated to
+					web design: OpenCV on Python, Machine Learning algorythms and ethical hacking to improve cybersecurity knowledge.</p>
+				</div>
+				<div class="bg-black rounded-2xl p-5">
+					<div class='flex justify-between my-6'>
+					  <h1 class='font-unisonBold text-3xl max-[430px]:text-2xl'>Atributtes</h1>
+					  <TerminalWindow size={35}/> 
+					</div>
+					<p class='text-xl pb-4'>I am an active person, with ease in teamwork and great social skills who pays attention to details and always seek to improve work efficiency. 
+						I easily adapt to new technologies thanks to my constant desire to learn, with a responsible, formal and hard-working mentality, demanding myself in each task. Besides,
+						I enjoy developing projects and skills to expand my knowledge.</p>
+				</div>
+			</Fade>
 		</section>
 	</main>
 </Layout>
