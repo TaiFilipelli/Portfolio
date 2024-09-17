@@ -2,7 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import {TypeAnimation} from "react-type-animation"
 import Timeline from '../components/Timeline'
-import {UserFocus, GraduationCap, TerminalWindow, GithubLogo, InstagramLogo, LinkedinLogo} from "@phosphor-icons/react"
+import {UserFocus, GraduationCap, TerminalWindow, GithubLogo, Envelope, LinkedinLogo} from "@phosphor-icons/react"
 import {Fade, Slide} from "react-awesome-reveal"
 ---
 
@@ -15,12 +15,12 @@ import {Fade, Slide} from "react-awesome-reveal"
 				<TypeAnimation sequence={["FullStack Developer",1000,"Freelancer",1000,"Gamer",1000,"Student",1000]} wrapper="span" repeat={3} style={{display:'inline-block',fontFamily:'Unison Pro Bold Italic',color:'white',}} client:load/>
 				<div class="text-wrap w-2/3">
 					<p class="mt-10 text-2xl mb-10">Fullstack Developer from Argentina with more than 2 years of solid
-					experience on Web Development. </p>
+					experience on Web Development and Fullstack Applications.</p>
 				</div>
 				<div class="flex flex-row gap-4">
-					<a href="https://github.com/TaiFilipelli" class="bg-gray-500 p-4 rounded-3xl hover:bg-gray-300 transition-colors"><GithubLogo size={50}/></a>
-					<a href="https://www.instagram.com/tai_filipelli_?igsh=YXNqdzd1Znp4eXB6" class="bg-gray-500 p-4 rounded-3xl hover:bg-gray-300 transition-colors"><InstagramLogo size={50}/></a>
-					<a href="https://www.linkedin.com/in/taiel-filipelli/" class="bg-gray-500 p-4 rounded-3xl hover:bg-gray-300 transition-colors"><LinkedinLogo size={50}/></a>
+					<a href="https://github.com/TaiFilipelli" target="_blank" class="bg-gray-500 p-4 rounded-3xl hover:bg-gray-400 hover:scale-125 transition-all"><GithubLogo size={50}/></a>
+					<a href="mailto:taielfilipelli@gmail.com?subject=Consulta%20de%20Portfolio" target="_blank" class="bg-gray-500 p-4 rounded-3xl hover:bg-gray-400 hover:scale-125 transition-all"><Envelope size={50}/></a>
+					<a href="https://www.linkedin.com/in/taiel-filipelli/" target="_blank" class="bg-gray-500 p-4 rounded-3xl hover:bg-gray-400 hover:scale-125 transition-all"><LinkedinLogo size={50}/></a>
 				</div>
 			</Fade>
 		</section>
