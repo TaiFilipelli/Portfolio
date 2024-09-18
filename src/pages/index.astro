@@ -41,7 +41,7 @@ import {Fade, Slide} from "react-awesome-reveal"
 			<Fade direction="left" duration={700} cascade className="flex justify-center pt-6" triggerOnce client:load>
 				<h1 class="font-unisonBoldIthalic text-5xl mb-6 max-[430px]:text-4xl">Personal <span class="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">Projects</span></h1>
 			</Fade>
-			<Timeline client:load/>
+			<Timeline client:load server:defer/>
 		</section>
 		<section class="flex items-center flex-col justify-center my-20">
 			<h1 class="text-4xl font-unisonBold">My <span class="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">stacks</span></h1>
