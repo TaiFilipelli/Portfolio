@@ -73,9 +73,9 @@ const Timeline = () => {
           contentStyle={{backgroundColor:'#000',boxShadow:'none'}}
         >
           <h1 className="text-white font-bold text-2xl font-unisonBold">PadelPoint Official Store</h1>
-          <h4 className='py-2'>Currently working on the official PadelPoint e-commerce! Using Next.js on the Front stack and Nest.js & MySQL on the Back stack. My first official work
-            and my first programming-related job! Loving the process so far, learning a lot of useful stuff! Hopefully, this ends good! I am counting on it. When we deploy the API and 
-            database to production, webpage deploy will work. Until so, we are working on local.
+          <h4 className='py-2'>Currently working as the Front developer on the official PadelPoint e-commerce. Using Next.js on the Front stack and Nest.js & MySQL on the Back stack. 
+            The main focus is a SEO-oriented, user-friendly experience to display, in the best way possible, all that our client's store is about.
+
           </h4>
           <div className='w-full gap-3 flex flex-wrap mb-8 cursor-default'>
             <p className='bg-white text-black py-1 px-3 rounded-xl'>Next.js</p>
@@ -83,7 +83,7 @@ const Timeline = () => {
             <p className='bg-white text-black py-1 px-3 rounded-xl'>Nest.js</p>
             <p className='bg-white text-black py-1 px-3 rounded-xl'>MySQL</p>
           </div>
-          <a href="https://github.com/TaiFilipelli/PadelPoint" target='_blank' className="font-unisonBoldIthalic text-lg hover:underline">Preview soon! Link to repository here!</a>
+          <a href="https://www.padel-point.com.ar" target='_blank' className="font-unisonBoldIthalic text-lg hover:underline">Go to actual page</a>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           iconStyle={{backgroundColor:'#000',color:'#fff'}}
