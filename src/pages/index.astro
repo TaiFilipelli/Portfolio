@@ -17,7 +17,7 @@ import {Fade, Slide} from "react-awesome-reveal"
 					<p class="mt-10 text-2xl mb-10">Fullstack Developer from Argentina with more than 2 years of solid
 					experience on Web Development and Fullstack Applications.</p>
 				</div>
-				<div class="flex flex-row gap-4">
+				<div class="flex flex-row max-[420px]:flex-wrap gap-4 max-[400px]:gap-2">
 					<a href="https://github.com/TaiFilipelli" target="_blank" class="bg-gray-700 p-4 rounded-3xl hover:bg-gray-400 hover:scale-125 transition-all"><GithubLogo size={50}/></a>
 					<a href="mailto:taielfilipelli@gmail.com?subject=Consulta%20de%20Portfolio" target="_blank" class="bg-gray-700 p-4 rounded-3xl hover:bg-gray-400 hover:scale-125 transition-all"><Envelope size={50}/></a>
 					<a href="https://www.linkedin.com/in/taiel-filipelli/" target="_blank" class="bg-gray-700 p-4 rounded-3xl hover:bg-gray-400 hover:scale-125 transition-all"><LinkedinLogo size={50}/></a>
@@ -27,17 +27,17 @@ import {Fade, Slide} from "react-awesome-reveal"
 		</section>
 		<section id="exp" class="text-white mt-10 text-center">
 			<Slide direction="left" duration={700} cascade className="pt-6" triggerOnce client:load>
-				<h1 class="font-unisonBoldIthalic text-5xl pb-8 max-[430px]:text-4xl">My <span class="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">Experiences</span></h1>
+				<h1 class="font-unisonBoldIthalic text-5xl max-[560px]:text-4xl pb-8 max-[430px]:text-3xl">My <span class="bg-gradient-to-r from-pink-800 to-yellow-500 bg-clip-text text-transparent">Experience</span></h1>
 			</Slide>
 				<section class='gap-4 flex justify-center items-center flex-col'>
-					<Fade delay={400} duration={1000} triggerOnce className="bg-gray-700 flex flex-col text-left p-6 rounded-2xl gap-3 w-1/2" client:load>
+					<Fade delay={400} duration={1000} triggerOnce className="bg-gray-700 flex flex-col text-left p-6 max-[370px]:p-4 rounded-2xl gap-3 w-1/2 max-[630px]:w-full" client:load>
 						<ChalkboardTeacher size={50}/>
 						<h1 class="font-bold text-2xl">Microsoft Excel class teacher</h1>
 						<h3 class="font-thin text-base">May 2022- June 2024</h3>
 						<p class="font-medium text-lg text-wrap">I taught Excel training classes in the municipality of my city. The training courses included a month of weekly in-person classes with activities
-							and final evaluations included to certify the course. I was able to improve my oratory, my public speaking skills and my knowledge of the software in question. </p>
+							and final evaluations included to certify the course.</p>
 					</Fade>
-					<Fade delay={600} duration={1000} triggerOnce className="bg-gray-700 flex flex-col text-left p-6 rounded-2xl gap-3 w-1/2" client:load>
+					<Fade delay={600} duration={1000} triggerOnce className="bg-gray-700 flex flex-col text-left p-6 max-[370px]:p-4 rounded-2xl gap-3 w-1/2 max-[630px]:w-full" client:load>
 						<Browsers size={50}/>
 						<h1 class="font-bold text-2xl">Frontend Developer of PadelPoint's E-Commerce</h1>
 						<h3 class="font-thin text-base">June 2024 - Today</h3>
