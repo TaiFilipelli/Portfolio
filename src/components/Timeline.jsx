@@ -10,28 +10,6 @@ const Timeline = () => {
     <section className="text-white">
       <Fade delay={200} duration={600}>
         <VerticalTimeline>
-          <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2023"
-          contentArrowStyle={{ borderRight: '7px solid black' }}
-          icon={<Coins />}
-          iconStyle={{ backgroundColor: 'white', color: '#000' }}
-          contentStyle={{ backgroundColor: '#000', boxShadow: 'none' }}>
-        <h1 className="text-white font-bold text-2xl font-unisonBold">Nexus Pricing</h1>
-        <h4 className="py-2">
-          A small landing page with the goal of displaying different pricing plans for a fictional Graphics Engine called Nexus. It is a
-          Vanilla project, which means it uses only HTML and CSS. The page features a landing page with 3 different plans available and their respective price and another
-          page that allows you to insert fictional payment data to subscribe to the engine!
-        </h4>
-        <div className='w-full gap-3 flex flex-wrap mb-8 cursor-default'>
-          <p className='bg-white text-black py-1 px-3 rounded-xl'>HTML</p>
-          <p className='bg-white text-black py-1 px-3 rounded-xl'>CSS</p>
-        </div>
-        <a href="https://proyecto-pricing-o9or.vercel.app/" target="_blank" rel="noopener noreferrer">
-          <img src="/NexusPricingProject.gif" alt="Preview Project Pricing" />
-        </a>
-      </VerticalTimelineElement>
-      
       <VerticalTimelineElement className="vertical-timeline-element--education" date="2024" contentArrowStyle={{ borderRight: '7px solid black' }} icon={<PianoKeys />}
         iconStyle={{ backgroundColor: 'white', color: "#000" }}
         contentStyle={{ background: '#000', boxShadow: 'none' }}>
@@ -48,13 +26,8 @@ const Timeline = () => {
           <img src="/PianoVirtualProject.gif" alt="Preview Piano Project" />
         </a>
       </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className="vertical-timeline-element--education"
-        date="2024"
-        contentArrowStyle={{ borderRight: '7px solid black' }}
-        icon={<ShoppingCart/>}
-        iconStyle={{backgroundColor:'white',color:'#000'}}
-        contentStyle={{background:'#000',boxShadow:'none'}}>
+      <VerticalTimelineElement className="vertical-timeline-element--education" date="2024" contentArrowStyle={{ borderRight: '7px solid black' }} icon={<ShoppingCart/>} 
+      iconStyle={{backgroundColor:'white',color:'#000'}} contentStyle={{background:'#000',boxShadow:'none'}}>
           <h1 className='text-white font-bold text-2xl font-unisonBold'>MateLibre</h1>
           <h4 className='py-2'>Web App that fetchs an external API (Mercado Libre) and uses its vast repertory of articles published online to deploy them in card-shaped containers.
           Adds new concepts and things like animations, skeletons and other tools that i used for the first time. This way, the app looks a bit more profesional.</h4>
@@ -64,14 +37,8 @@ const Timeline = () => {
           </div>
           <a href="https://matelibre.vercel.app" target="_blank"><img src='/MateLibre.png' alt="Preview Mate Libre"/></a>
         </VerticalTimelineElement>
-      <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2024-Today"
-          contentArrowStyle={{ borderRight: '7px solid black' }}
-          icon={<Storefront/>}
-          iconStyle={{backgroundColor:'white',color:'#000'}}
-          contentStyle={{backgroundColor:'#000',boxShadow:'none'}}
-        >
+      <VerticalTimelineElement className="vertical-timeline-element--education" date="2024-Today" contentArrowStyle={{ borderRight: '7px solid black' }} icon={<Storefront/>}
+          iconStyle={{backgroundColor:'white',color:'#000'}} contentStyle={{backgroundColor:'#000',boxShadow:'none'}}>
           <h1 className="text-white font-bold text-2xl font-unisonBold">PadelPoint Official Store</h1>
           <h4 className='py-2'>Currently working as the Front developer on the official PadelPoint e-commerce. Using Next.js on the Front stack and Nest.js & MySQL on the Back stack. 
             The main focus is a SEO-oriented, user-friendly experience to display, in the best way possible, all that our client's store is about.
@@ -84,14 +51,8 @@ const Timeline = () => {
           </div>
           <a href="https://www.padel-point.com.ar" target='_blank' className="font-unisonBoldIthalic text-lg hover:underline">Go to actual page</a>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--education"
-          date="2024-Today"
-          contentArrowStyle={{ borderRight: '7px solid black' }}
-          icon={<Snowflake/>}
-          iconStyle={{backgroundColor:'white',color:'#000'}}
-          contentStyle={{backgroundColor:'#000',boxShadow:'none'}}
-        >
+        <VerticalTimelineElement className="vertical-timeline-element--education" date="2024-Today" contentArrowStyle={{ borderRight: '7px solid black' }} icon={<Snowflake/>}
+          iconStyle={{backgroundColor:'white',color:'#000'}} contentStyle={{backgroundColor:'#000',boxShadow:'none'}}>
           <h1 className="text-white font-bold text-2xl font-unisonBold">Mateify</h1>
           <h4 className='py-2'>One of my newest projects: a landing page of a fictional company called Mateify. It is an Angular project, with pure css and
             with the goal of display information in a more design-oriented way. It is a small project, but it gives me the opportunity of showcase in a better way
@@ -103,11 +64,7 @@ const Timeline = () => {
           </div>
           <a href="https://mateify.vercel.app" target='_blank' className="font-unisonBoldIthalic text-lg hover:underline"><img src="/Mateify.png" alt="Mateify" /></a>
         </VerticalTimelineElement>
-        <VerticalTimelineElement
-          iconStyle={{backgroundColor:'#000',color:'#fff'}}
-          icon={<Moon/>}
-          date="Work in progress..."
-        >
+        <VerticalTimelineElement iconStyle={{backgroundColor:'#000',color:'#fff'}} icon={<Moon/>} date="Work in progress...">
         </VerticalTimelineElement>
     </VerticalTimeline>
   </Fade>
