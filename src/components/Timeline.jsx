@@ -1,7 +1,7 @@
 import VerticalTimelineComponent from 'react-vertical-timeline-component';
 const { VerticalTimeline, VerticalTimelineElement } = VerticalTimelineComponent;
 import 'react-vertical-timeline-component/style.min.css';
-import { PianoKeys, Coins, ShoppingCart, Storefront, Moon } from '@phosphor-icons/react';
+import { PianoKeys, Coins, ShoppingCart, Storefront, Moon, Snowflake } from '@phosphor-icons/react';
 import { Fade } from 'react-awesome-reveal';
 import React from 'react'
 
@@ -88,7 +88,7 @@ const Timeline = () => {
           className="vertical-timeline-element--education"
           date="2024-Today"
           contentArrowStyle={{ borderRight: '7px solid black' }}
-          icon={<Storefront/>}
+          icon={<Snowflake/>}
           iconStyle={{backgroundColor:'white',color:'#000'}}
           contentStyle={{backgroundColor:'#000',boxShadow:'none'}}
         >
