@@ -37,6 +37,19 @@ const Timeline = () => {
           </div>
           <a href="https://matelibre.vercel.app" target="_blank"><img src='/MateLibre.png' alt="Preview Mate Libre"/></a>
         </VerticalTimelineElement>
+        <VerticalTimelineElement className="vertical-timeline-element--education" date="2024-Today" contentArrowStyle={{ borderRight: '7px solid black' }} icon={<Snowflake/>}
+          iconStyle={{backgroundColor:'white',color:'#000'}} contentStyle={{backgroundColor:'#000',boxShadow:'none'}}>
+          <h1 className="text-white font-bold text-2xl font-unisonBold">Mateify</h1>
+          <h4 className='py-2'>One of my newest projects: a landing page of a fictional company called Mateify. It is an Angular project, with pure css and
+            with the goal of display information in a more design-oriented way. It is a small project, but it gives me the opportunity of showcase in a better way
+            my knowledges from Angular and my design & coding skills.
+          </h4>
+          <div className='w-full gap-3 flex flex-wrap mb-8 cursor-default'>
+            <p className='bg-white text-black py-1 px-3 rounded-xl'>Angular</p>
+            <p className='bg-white text-black py-1 px-3 rounded-xl'>CSS</p>
+          </div>
+          <a href="https://mateify.vercel.app" target='_blank' className="font-unisonBoldIthalic text-lg hover:underline"><img src="/Mateify.png" alt="Mateify" /></a>
+        </VerticalTimelineElement>
       <VerticalTimelineElement className="vertical-timeline-element--education" date="2024-Today" contentArrowStyle={{ borderRight: '7px solid black' }} icon={<Storefront/>}
           iconStyle={{backgroundColor:'white',color:'#000'}} contentStyle={{backgroundColor:'#000',boxShadow:'none'}}>
           <h1 className="text-white font-bold text-2xl font-unisonBold">PadelPoint Official Store</h1>
@@ -50,19 +63,6 @@ const Timeline = () => {
             <p className='bg-white text-black py-1 px-3 rounded-xl'>MySQL</p>
           </div>
           <a href="https://www.padel-point.com.ar" target='_blank' className="font-unisonBoldIthalic text-lg hover:underline">Go to actual page</a>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement className="vertical-timeline-element--education" date="2024-Today" contentArrowStyle={{ borderRight: '7px solid black' }} icon={<Snowflake/>}
-          iconStyle={{backgroundColor:'white',color:'#000'}} contentStyle={{backgroundColor:'#000',boxShadow:'none'}}>
-          <h1 className="text-white font-bold text-2xl font-unisonBold">Mateify</h1>
-          <h4 className='py-2'>One of my newest projects: a landing page of a fictional company called Mateify. It is an Angular project, with pure css and
-            with the goal of display information in a more design-oriented way. It is a small project, but it gives me the opportunity of showcase in a better way
-            my knowledges from Angular and my design & coding skills.
-          </h4>
-          <div className='w-full gap-3 flex flex-wrap mb-8 cursor-default'>
-            <p className='bg-white text-black py-1 px-3 rounded-xl'>Angular</p>
-            <p className='bg-white text-black py-1 px-3 rounded-xl'>CSS</p>
-          </div>
-          <a href="https://mateify.vercel.app" target='_blank' className="font-unisonBoldIthalic text-lg hover:underline"><img src="/Mateify.png" alt="Mateify" /></a>
         </VerticalTimelineElement>
         <VerticalTimelineElement iconStyle={{backgroundColor:'#000',color:'#fff'}} icon={<Moon/>} date="Work in progress...">
         </VerticalTimelineElement>
