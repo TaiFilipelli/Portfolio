@@ -9,14 +9,26 @@ import Footer from '../components/Footer.astro';
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="description" content="Fullstack Developer from Argentina with more than 2 years of solid experience on Web Development and Fullstack Applications." />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/codificacion.png" />
+		<link rel="icon" type="image/svg+xml" href="/codificacion.png"/>
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+		<script>
+			!function(f,b,e,v,n,t,s)
+			{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+			n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+			if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+			n.queue=[];t=b.createElement(e);t.async=!0;
+			t.src=v;s=b.getElementsByTagName(e)[0];
+			s.parentNode.insertBefore(t,s)}(window, document,'script',
+			'https://connect.facebook.net/en_US/fbevents.js');
+			fbq('init', '1121344126232821');
+			fbq('track', 'PageView');
+		</script>
 	</head>
 	<body class="h-auto w-full pt-5 bg-gradient-to-b from-slate-800 to-slate-950 bg-no-repeat max-[572px]:pr-0 max-[400px]:pl-0">
 		<Navbar/>
