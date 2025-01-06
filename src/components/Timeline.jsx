@@ -53,8 +53,9 @@ const Timeline = () => {
       <VerticalTimelineElement className="vertical-timeline-element--education" date="2024-Today" contentArrowStyle={{ borderRight: '7px solid black' }} icon={<Storefront/>}
           iconStyle={{backgroundColor:'white',color:'#000'}} contentStyle={{backgroundColor:'#000',boxShadow:'none'}}>
           <h1 className="text-white font-bold text-2xl font-unisonBold">PadelPoint Official Store</h1>
-          <h4 className='py-2'>Currently working as the Front developer on the official PadelPoint e-commerce. Using Next.js on the Front stack and Nest.js & MySQL on the Back stack. 
-            The main focus is a SEO-oriented, user-friendly experience to display, in the best way possible, all that our client's store is about.
+          <h4 className='py-2'>My last work was as the Front developer on the official PadelPoint e-commerce. Using Next.js on the Front stack and Nest.js & MySQL on the Back stack. 
+            The main focus is a SEO-oriented, user-friendly experience to display, in the best way possible, all that our client's store is about. On the other hand, the application also has 
+            a fully functional admin panel, where a user whose rol is admin can create, edit and delete entities directly from the database.
           </h4>
           <div className='w-full gap-3 flex flex-wrap mb-8 cursor-default'>
             <p className='bg-white text-black py-1 px-3 rounded-xl'>Next.js</p>
