@@ -62,7 +62,7 @@ const Timeline = () => {
             <p className='bg-white text-black py-1 px-3 rounded-xl'>Nest.js</p>
             <p className='bg-white text-black py-1 px-3 rounded-xl'>MySQL</p>
           </div>
-          <a href="https://www.padel-point.com.ar" target='_blank' className="font-unisonBoldIthalic text-lg hover:underline">
+          <a href="https://padel-point.vercel.app/" target='_blank' className="font-unisonBoldIthalic text-lg hover:underline">
             <img src="/PadelPoint.png" alt="Preview PadelPoint site"/>
           </a>
         </VerticalTimelineElement>
