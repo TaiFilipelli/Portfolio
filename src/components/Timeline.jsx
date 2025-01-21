@@ -50,10 +50,10 @@ const Timeline = () => {
           </div>
           <a href="https://mateify.vercel.app" target='_blank' className="font-unisonBoldIthalic text-lg hover:underline"><img src="/Mateify.png" alt="Mateify" /></a>
         </VerticalTimelineElement>
-      <VerticalTimelineElement className="vertical-timeline-element--education" date="2024-Today" contentArrowStyle={{ borderRight: '7px solid black' }} icon={<Storefront/>}
+      <VerticalTimelineElement className="vertical-timeline-element--education" date="2024-2025" contentArrowStyle={{ borderRight: '7px solid black' }} icon={<Storefront/>}
           iconStyle={{backgroundColor:'white',color:'#000'}} contentStyle={{backgroundColor:'#000',boxShadow:'none'}}>
-          <h1 className="text-white font-bold text-2xl font-unisonBold">PadelPoint Official Store</h1>
-          <h4 className='py-2'>My last role in a work was as the Web developer on the official PadelPoint e-commerce. Using Next.js on the Front stack and Nest.js & MySQL on the Back stack. 
+          <h1 className="text-white font-bold text-2xl font-unisonBold">PadelPoint Store</h1>
+          <h4 className='py-2'>My last work was as the Web developer on the official PadelPoint e-commerce. Using Next.js on the Front stack and Nest.js & MySQL on the Back stack. 
             The main focus of the project is a SEO-oriented, user-friendly experience to display, in the best way possible, all that our client's store is about. On the other hand, the application has 
             a fully functional admin panel, where a user who has the said role can create, edit and delete entities directly from the database.
           </h4>
