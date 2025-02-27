@@ -66,7 +66,7 @@ const Timeline = () => {
             <p className='bg-white text-black py-1 px-3 rounded-xl'>TailwindCSS</p>
             <p className='bg-white text-black py-1 px-3 rounded-xl'>Google Sheets</p>
           </div>
-          <a href="https://tech-cave.vercel.app/" target='_blank' className="font-unisonBoldIthalic text-lg hover:underline"><img src="/Mateify.png" alt="Mateify" /></a>
+          <a href="https://tech-cave.vercel.app/" target='_blank' className="font-unisonBoldIthalic text-lg hover:underline"><img src="/Techcave.png" alt="Tech's cave" /></a>
         </VerticalTimelineElement>
         <VerticalTimelineElement iconStyle={{backgroundColor:'#000',color:'#fff'}} icon={<Moon/>} date="Work in progress...">
         </VerticalTimelineElement>
