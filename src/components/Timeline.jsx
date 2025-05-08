@@ -56,7 +56,7 @@ const Timeline = () => {
         <VerticalTimelineElement className="vertical-timeline-element--education" date="In progress" contentArrowStyle={{ borderRight: '7px solid black' }} icon={<Snowflake/>}
           iconStyle={{backgroundColor:'white',color:'#000'}} contentStyle={{backgroundColor:'#000',boxShadow:'none'}}>
           <h1 className="text-white font-bold text-2xl font-unisonBold">Tech-Cave</h1>
-          <h4 className='py-2'>One of my newest projects: This one is an e-commerce, that it looks like any other. But there's a twist: this app doesn't have a dedicated database or API, 
+          <h4 className='py-2'>One of my newest projects: This one is an e-commerce that it looks like any other. But there's a twist: this app doesn't have a dedicated database or API, 
           instead, all of the information is stored in a .csv file of Google Sheets. Using axios, the app fetches the data from a sheet and displays it in the app. Every single change that 
           we made in the Google Sheet it's inmediately reflected and displayed in the app. This way, some minor entrepreneurships can have it's own e-commerce without the need of a dedicated
           API or database (not to mention the high costs that those things have).
